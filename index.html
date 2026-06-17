@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#10080f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Levi & Amanda</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page page-home" aria-labelledby="titulo-principal">
+    <section class="card proposal-card">
+      <div class="shine" aria-hidden="true"></div>
+
+      <p class="eyebrow">Amanda, o Levi preparou isso para você</p>
+
+      <div class="photos" aria-label="Fotos de Levi e Amanda">
+        <figure class="person">
+          <img src="assets/foto1.png" alt="Foto do Levi" />
+          <figcaption>Levi</figcaption>
+        </figure>
+
+        <div class="heart" aria-hidden="true">💍</div>
+
+        <figure class="person">
+          <img src="assets/foto2.jpeg" alt="Foto da Amanda" />
+          <figcaption>Amanda</figcaption>
+        </figure>
+      </div>
+
+      <h1 id="titulo-principal">Amanda, aceita casar comigo?</h1>
+
+      <p class="subtitle">
+        Eu quero construir minha vida ao seu lado. Fiz essa página para te perguntar
+        do meu jeito: com carinho, verdade e vontade de viver tudo isso com você.
+      </p>
+
+      <audio id="loveAudio" autoplay loop preload="auto" playsinline>
+        <source src="assets/musica.mp3" type="audio/mpeg" />
+      </audio>
+
+      <button class="volume-note" id="volumeNote" type="button">aumenta o volume kkk</button>
+
+      <div class="actions" id="actions">
+        <a class="btn yes" href="resposta.html" aria-label="Responder sim">Sim</a>
+        <button class="btn no" id="noBtn" type="button" aria-label="Responder não">Não</button>
+      </div>
+
+      <p class="hint">O “não” até tenta aparecer, mas só o “sim” pode continuar essa história.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
